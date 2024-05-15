@@ -1,0 +1,69 @@
+<css>
+body {
+  margin-bottom: 1rem;
+  font-size: 130%;
+  margin: 0 auto;
+  padding: 10px 10px 10px 10px;
+}
+h1 {
+  color: darkblue;
+  font-size: 2em;
+}
+
+p {
+  color: black;
+}
+li {
+  color: green;
+}
+
+.special {
+  color: lightgreen;
+  font-weight: bold;
+}
+li em {
+  color: rebeccapurple;
+}
+a:link {
+  color: purple;
+}
+
+a:visited {
+  color: green;
+}
+a:hover {
+  text-decoration: none;
+  color: gray;
+}
+a {
+  font-weight: bold;
+}
+body h1 + p .special {
+  color: gray;
+  background-color: lightpink;
+  padding: 2px;
+}
+h2 {
+  font-size: 1.4em;
+  padding: 30px;
+  color: lightblue;
+ text-shadow: 2.5px 1.5px 2px black;
+}
+.poem {
+  border: thin solid navy;
+  border-radius: 40px;
+ box-shadow: 12px 12px 2px 1px lightblue;
+  padding: 20px;
+  background-color: #546789;
+  text-shadow: .6px .4px .6px purple;
+}
+.poem figcaption {
+  color: lightgray;
+  padding-left: 50px;
+}
+table {
+  padding: 1px;
+  border: solid #546789;
+  box-shadow: 10px 5px 5px lightblue;
+}
+</css>
